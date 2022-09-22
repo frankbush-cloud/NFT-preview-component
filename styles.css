@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+/* colors */
+:root{
+    /* primary */
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    /* neutral */
+    --Very-dark-blue-mainBG: hsl(217, 54%, 11%);
+--Very-dark-blue-cardBG: hsl(216, 50%, 16%);
+--Very-dark-blue-line: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+}
+
+/* Font size (paragraph): 18px */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* attribution */
+.attribution { font-size: 16px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    /* body */
+
+    body{
+        background: var(--Very-dark-blue-mainBG);
+        font-size: 18px;
+        justify-content: center;
+        display: grid;
+        align-items: center;
+        align-content: center;
+        min-height: 100vh;
+        justify-items: center;   
+    }
+
+
+    /* container */
+    .container{
+        background: var(--Very-dark-blue-cardBG);
+        width: 450px;
+        padding: 2rem;
+        border-radius: 1rem;
+margin-bottom: 2rem;
+
+    }
+
+    /* image equilibrium */
+    .equilibrium{
+        max-width: 100%;
+        max-height: 50%;
+        border-radius: 0.5rem;
+    
+    }
+
+    .heading{
+        color: white;
+        font-family: "Outfit", sans-serif;
+        margin: 2rem  0;
+        
+    }
+
+    .text {
+        color: var(--Soft-blue);
+        font-size: 1.5rem;
+        font-family: "Outfit", sans-serif;
+
+    }
+
+    /* div eth */
+    .eth-days{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 2rem 0;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .eth {
+        color: var(--Cyan);
+        font-family: "Outfit", sans-serif;
+        display: inherit;
+
+    }
+    .days{
+        color: var(--Soft-blue);
+        font-family: "Outfit", sans-serif;
+        display: inherit;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .ethereum{
+        margin-right: 0.5rem;
+    }
+    .clock{
+        margin-right: 0.5rem;
+    }
+    .line{
+    height: 2px;
+    background-color: var(--Very-dark-blue-line);
+    border: none;
+    
+    }
+    .profile{
+        display: flex;
+        flex-direction: row;
+        margin: 2rem 0;
+        align-items: center;
+    }
+
+    .avatar{
+        border: 1px solid white;
+        border-radius: 48%;
+        width: 10%;
+    }
+
+    .span{
+        display: flex;
+        font-size: 1.5rem;
+        margin-left: 1.5rem;
+        font-family: "Outfit", sans-serif;
+    }
+    #blue{
+        color: hsl(215, 51%, 70%, 0.7);
+    }
+    #gray{
+       color: hsl(0, 0%, 90%); 
+       margin-left: 0.5rem;
+    }
+
+
+
+
+
